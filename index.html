@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compleanno Aurora 2024</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Compleanno Aurora 2024</h1>
+
+    <div class="bodyMessage">
+      <label class="messageText">
+        Per un giorno speciale come questo, ho pensato che meriti di coltivare le tue passioni. 
+        Tu, che sei la mia più grande passione, meriti ogni cosa bella di questo mondo. Perciò stringimi la mano e cavalchiamo la vita fianco a fianco!
+        <br />
+        Buon Compleanno amore mio.
+      </label>
+      <button class="button">
+        <a class="linkKoko" onclick="downloadPDF()">
+          Scopri il tuo regalo
+        </a>
+      </button>
+
+      <script>
+        function downloadPDF() {
+          var pdfUrl = "files/Voucher.pdf";
+          var hiddenLink = document.createElement("a");
+          hiddenLink.href = pdfUrl;
+          hiddenLink.download = "Voucher.pdf";
+          document.body.appendChild(hiddenLink);
+          hiddenLink.click();
+          document.body.removeChild(hiddenLink);
+        }
+      </script>
+
+    </div>
+  </body>
+</html>
