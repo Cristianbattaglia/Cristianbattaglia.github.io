@@ -1,9 +1,8 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 30px;
+    margin: 20px;
+    background-image: url(photo/meAndYou.png);
+    background-size: cover;
+    height: 80vh;
   }
   
   h1 {
