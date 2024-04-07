@@ -1,20 +1,21 @@
 body {
-    /* font-family: "Classy Marisa", cursive; */
-    margin: 20px;
-    background-image: url(photo/meAndYou.png);
-    background-size: cover;
-    height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
   }
   
   h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: black;
+    color: whitesmoke;
+    width: 101%;
   }
   
   div {
-    color: black;
+    color: whitesmoke;
   }
   
   .downloadPdf {
@@ -32,7 +33,7 @@ body {
   }
   
   .button {
-    background-color: rgb(89, 49, 24);
+    background-color: darkred;
     border: none;
     color: whitesmoke;
     padding: 15px 32px;
@@ -43,28 +44,12 @@ body {
     margin: 4px 2px;
     cursor: pointer;
     width: 60%;
-    margin-top: 28px;
-  }
-  
-  .button-back {
-    background-color: rgb(89, 49, 24);
-    border: none;
-    color: whitesmoke;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: flex;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    margin-top: 28px;
-    justify-content: center;
-    align-content: center;
+    margin-top: 78%;
   }
   
   .messageText {
-    line-height: 2;
     display: block;
     text-align: center;
-    font-family: "Classy Marisa", cursive;
+    margin-top: 10%;
+    font-size: large;
   }
